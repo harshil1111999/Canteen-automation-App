@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFeedback"
+    android:orientation="vertical"
+    android:background="@color/darkgrey">
+    <TextView
+        android:id="@+id/ContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canteen : Honey_One_C1\nContact : 9090909090"
+        android:layout_margin="16dp"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"/>
+<!--    <Button-->
+<!--        android:id="@+id/ContactInfoBack"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="back"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:textSize="24sp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/detail_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_detail"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback :   "
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Feedback Here"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/white"
+                android:id="@+id/feedback"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="submit"
+            android:textSize="24sp"
+            android:id="@+id/feedbackSubmit"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_common"/>
+
+    </LinearLayout>
+</LinearLayout>

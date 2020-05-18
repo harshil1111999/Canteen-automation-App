@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982562074291",
+    "firebase_url": "https://senproject-64b48.firebaseio.com",
+    "project_id": "senproject-64b48",
+    "storage_bucket": "senproject-64b48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982562074291:android:0ecea4d088686ae24acac6",
+        "android_client_info": {
+          "package_name": "com.example.senproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982562074291-8b3e0913jsnhoq29dn27jjn7rmvpm1cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7wDZnkiciX-iIq-xXrAYIsY5bZut3bR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982562074291-8b3e0913jsnhoq29dn27jjn7rmvpm1cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

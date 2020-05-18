@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Canteenfeedback"
+    android:orientation="vertical"
+    android:background="@color/darkgrey">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Developer : Rushiraj Baxi\nContact : 9106879023"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"/>
+<!--    <Button-->
+<!--        android:id="@+id/canteenFeedbackBack"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:textSize="24sp"-->
+<!--        android:text="back"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedbacks"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"/>
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/canteenFeedbackListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/detail_background">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResturantMenu"
+    android:orientation="vertical"
+    android:background="@color/darkgrey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/MenuResturantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ResturantName"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:padding="16dp"/>
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_gravity="center_horizontal">-->
+<!--            <Button-->
+<!--                android:id="@+id/back"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:text="Back"/>-->
+<!--            <Button-->
+<!--                android:id="@+id/ContactFeedback"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginLeft="32dp"-->
+<!--                android:text="Contact/Feedback"/>-->
+<!--        </LinearLayout>-->
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ListMenuView"
+            android:layout_margin="10dp"
+            android:background="@drawable/detail_background">
+
+        </ListView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/PlaceOrder12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Cart"
+        android:textSize="24sp"
+        android:background="@drawable/custom_button_common"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

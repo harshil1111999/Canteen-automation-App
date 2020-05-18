@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CanteenOrderStatus"
+    android:orientation="vertical"
+    android:background="@color/darkgrey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="19">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp" >
+            <TextView
+                android:id="@+id/CanteenOrderStatusType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending Orders: "
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="16dp"/>
+            <TextView
+                android:id="@+id/pendingOrderCanteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="8dp"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/PendingOrderCanteenListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/detail_background"/>
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:id="@+id/OrderStatusCanteenBack"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Back"-->
+<!--            android:textSize="24sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginLeft="16dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/ScanQr"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Scan QR"-->
+<!--            android:textSize="24sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginLeft="32dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/contactFeedbackCanteen"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Contact/Feedback"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginLeft="32dp"/>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
